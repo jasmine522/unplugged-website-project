@@ -243,6 +243,10 @@ footer .social-icons {
  }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,7 +269,7 @@ footer .copyright {
  /* Hero Area */
 
 .hero-area {
-  background-image: url("img/homepage-one.jpg")
+  background: url(../img/homepage-one.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500;
@@ -320,7 +324,7 @@ input[type=button] {
  /* Features */
 
 .features {
-  background: url('../img/homepage-two.jpg');
+  background: url(../img/homepage-two.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -810,7 +814,7 @@ input[type=button] {
   footer h4 {
     font-size: 1.875em;
   }
-  
+
   /* ==========================================================================
   About Page
   ========================================================================== */
